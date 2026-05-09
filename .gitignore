@@ -1,0 +1,4 @@
+node_modules/
+recordings/
+whisper.cpp/
+.env

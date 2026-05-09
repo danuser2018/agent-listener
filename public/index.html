@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grabadora de Audio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎙️ Grabadora Local</h1>
+        <p class="subtitle">Graba audios, envíalos al ordenador y transcríbelos automáticamente a texto.</p>
+
+        <div class="status-indicator">
+            <div id="recordingMark" class="dot"></div>
+            <span id="statusText">Listo para grabar</span>
+        </div>
+
+        <div class="controls">
+            <button id="startBtn" class="btn primary">Iniciar Grabación</button>
+            <button id="stopBtn" class="btn secondary" disabled>Detener Grabación</button>
+        </div>
+
+        <div id="messages" class="messages"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
